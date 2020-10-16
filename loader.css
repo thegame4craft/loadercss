@@ -1,17 +1,13 @@
-* {
-    background-color: #ffffff;
-}
-
-.content {
+.loader {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 16px solid #3498db; /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    animation: ani1 2s linear infinite;
+    animation: loader 2s linear infinite;
 }
 
-@keyframes ani1 {
+@keyframes loader {
     from {
         transform: rotate(0deg);
     }
@@ -22,3 +18,4 @@
         transform: rotate(360deg);
     }
 }
+
