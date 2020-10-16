@@ -1,0 +1,24 @@
+* {
+    background-color: #ffffff;
+}
+
+.content {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: ani1 2s linear infinite;
+}
+
+@keyframes ani1 {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
